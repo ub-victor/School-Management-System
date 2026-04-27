@@ -37,7 +37,7 @@ public class Student extends Person {
 
     @Override
     public String getRole() {
-        return null;
+        return "Student";
     }
 
     @Override
