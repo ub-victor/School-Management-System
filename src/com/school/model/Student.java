@@ -45,9 +45,5 @@ public class Student extends Person {
         return super.toString() + String.format(" | Fees paid: $%.2f | Total Fees: $%.2f | Remaining: $%.2f",
         feesPaid, totalFees, getRemainingFrees());
 
-    }
-
-    
-      
-    
+    } 
 }
