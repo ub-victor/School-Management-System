@@ -41,6 +41,14 @@ public abstract class Person {
         this.email = email;
     }
 
+    @Override
+    public String toString(){
+        return  String.format(
+            "ID: %s | Name %s | Email: %s | Role: %s", 
+            id, name, email, getRole()
+        );
+    }
+
     
     
 }
