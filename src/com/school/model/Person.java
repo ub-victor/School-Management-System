@@ -41,9 +41,9 @@ public abstract class Person {
         this.email = email;
     }
     // Abstract method to be overridden by subclasses (Polymorphism)
-    // Here we tell Java I am replacing the toString() method that already exists in the parent class
+    
     public abstract String getRole();
-
+    
     @Override
     public String toString(){
         return  String.format(
