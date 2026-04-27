@@ -5,6 +5,8 @@ package com.school.model;
  * Demostrates abstraction and encapsulation.
  */
 public abstract class Person {
-    
+    private String id;
+    private String name;
+    private String email;
     
 }
