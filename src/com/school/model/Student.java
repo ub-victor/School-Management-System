@@ -26,7 +26,7 @@ public class Student extends Person {
         this.totalFees = totalFees;
     }
 
-    public void payFees()
+    public void payFees(double amount)
 
 
     
