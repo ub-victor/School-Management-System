@@ -47,7 +47,7 @@ public abstract class Person {
     @Override
     public String toString(){
         // It is a method used to build a formatted string
-        
+        // %s = placeholder for a String
         return  String.format(
             "ID: %s | Name %s | Email: %s | Role: %s", 
             id, name, email, getRole()
