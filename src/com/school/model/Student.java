@@ -24,7 +24,9 @@ public class Student extends Person {
 
     public void setTotalFees(double totalFees) {
         this.totalFees = totalFees;
-    }  
+    }
+
+    
     
     
 }
