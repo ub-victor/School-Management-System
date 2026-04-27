@@ -26,6 +26,10 @@ public class Student extends Person {
         this.totalFees = totalFees;
     }
 
+    public double getRemainingFees(){
+        
+    }
+
     public void payFees(double amount){
         if (amount > 0 && amount <= getRemainingFrees()){
             feesPaid += amount;
