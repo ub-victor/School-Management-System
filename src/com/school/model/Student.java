@@ -6,7 +6,7 @@ public class Student extends Person {
     
     public Student(String id, String name, String email, double feesPaid, double totalFees) {
         super(id, name, email);
-        this.feesPaid = feesPaid;
+        this.feesPaid = 0.0;
         this.totalFees = totalFees;
     }
 
