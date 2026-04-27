@@ -43,7 +43,7 @@ public class Student extends Person {
     @Override
     public String toString() {
         return super.toString() + String.format(" | Fees paid: $%.2f | Total Fees: $%.2f | Remaining: $%.2f",
-        feesPaid, totalFees, getRemainingFrees());
+        feesPaid, totalFees, getRemainingFees());
 
     } 
 }
