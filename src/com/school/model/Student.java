@@ -27,10 +27,12 @@ public class Student extends Person {
     }
 
     public void payFees(double amount){
-        if (amount > 0 && amount <= getRainingFrees(){
+        if (amount > 0 && amount <= getRemainingFrees()){
             feesPaid += amount;
             System.out.println("Payment of $" + amount + "received from" + getName()+ ". Total paid: $" + feesPaid);
-        })
+        }else {
+            System.out.println("Invalid payment amount or exceeds remaining fees");
+        }
     }
 
 
