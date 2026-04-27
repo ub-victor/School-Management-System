@@ -43,7 +43,7 @@ public abstract class Person {
     // Abstract method to be overridden by subclasses (Polymorphism)
     
     public abstract String getRole();
-    
+    // Here we tell Java I am replacing the toString() method that already exists in the parent class
     @Override
     public String toString(){
         return  String.format(
