@@ -28,7 +28,8 @@ public class Student extends Person {
 
     public void payFees(double amount){
         if (amount > 0 && amount <= getRainingFrees(){
-            
+            feesPaid += amount;
+            System.out.println("Payment of $" + amount + "received from" + getName()+ ". Total paid: $" + feesPaid);
         })
     }
 
