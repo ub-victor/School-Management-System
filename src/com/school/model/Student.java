@@ -27,7 +27,7 @@ public class Student extends Person {
     }
 
     public double getRemainingFees(){
-        
+        return totalFees - feesPaid;
     }
 
     public void payFees(double amount){
