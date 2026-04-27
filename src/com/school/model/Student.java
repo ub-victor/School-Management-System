@@ -35,7 +35,17 @@ public class Student extends Person {
         }
     }
 
+    @Override
+    public String getRole() {
+        return null;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 
     
+      
     
 }
