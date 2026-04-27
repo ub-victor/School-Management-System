@@ -45,9 +45,9 @@ public abstract class Person {
     public abstract String getRole();
     // Here we tell Java I am replacing the toString() method that already exists in the parent class
     @Override
-    // public String toString(){
+    public String toString(){
         // It is a method used to build a formatted string
-
+        
         return  String.format(
             "ID: %s | Name %s | Email: %s | Role: %s", 
             id, name, email, getRole()
