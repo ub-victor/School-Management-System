@@ -42,7 +42,8 @@ public class Student extends Person {
 
     @Override
     public String toString() {
-        return super.toString();
+        return super.toString() + String.format(" | Fees paid: $%.3f | Total Frees: $%.2f | Remaining: $%.2f",
+        feesPaid, totalFees, getRemainingFrees());
     }
 
     
