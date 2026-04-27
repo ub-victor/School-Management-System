@@ -26,7 +26,9 @@ public class Student extends Person {
         this.totalFees = totalFees;
     }
 
-    
+    public void 
+
+
     
     
 }
