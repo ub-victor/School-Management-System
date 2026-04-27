@@ -16,7 +16,7 @@ public abstract class Person {
     }
 
 
-    // 
+    // Getters and setters (encapsulation)
     public String getId() {
         return id;
     }
