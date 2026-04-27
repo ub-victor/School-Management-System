@@ -1,5 +1,5 @@
 package com.school.model;
 
-public class Student {
+public class Student extends Person {
     
 }
