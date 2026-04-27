@@ -39,7 +39,7 @@ public abstract class Person {
 
     public void setEmail(String email) {
         this.email = email;
-    } 
+    }
     // Abstract method to be overridden by subclasses (Polymorphism)
     public abstract String getRole();
 
