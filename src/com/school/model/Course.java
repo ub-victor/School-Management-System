@@ -69,6 +69,6 @@ public class Course {
     }
 
     public void displayCourseInfo(){
-        
+        System.out.println("\n--- Course: " + courseName + " (" + courseCode + ") ---");
     }
 }
