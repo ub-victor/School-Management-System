@@ -8,4 +8,6 @@ public class Course {
     private String courseCode;
     private String courseName;
     private Teacher teacher;
+    private List<Student> enrolledStudents;
+    private int maxCapacity;
 }
