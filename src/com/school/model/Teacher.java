@@ -22,17 +22,9 @@ public class Teacher extends Person{
         return salary;
     }
 
-
-
-
-
     public void setSalary(double salary) {
         this.salary = salary;
     }
-
-
-
-
 
     @Override
     public String getRole() {
