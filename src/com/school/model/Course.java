@@ -58,5 +58,13 @@ public class Course {
         this.maxCapacity = maxCapacity;
     }
 
-    
+    public boolean enrolledStudent(Student student){
+        if(enrolledStudents.size() < maxCapacity && !enrolledStudents.contains(student)){
+            System.out.println(student.getName() + "Entolled in " + courseName);
+            return true;
+        }else{
+            System.out.println("Enrollment failed: course full or Student already enrolled.");
+            return false;
+        }
+    }
 }
