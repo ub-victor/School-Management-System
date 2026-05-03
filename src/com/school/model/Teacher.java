@@ -10,7 +10,31 @@ public class Teacher extends Person{
         this.salary = salary;
     }
 
-    
+    public String getSubjectSpecialization() {
+        return subjectSpecialization;
+    }
+
+    public void setSubjectSpecialization(String subjectSpecialization) {
+        this.subjectSpecialization = subjectSpecialization;
+    }
+
+
+
+
+
+    public double getSalary() {
+        return salary;
+    }
+
+
+
+
+
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
+
+
 
 
 
