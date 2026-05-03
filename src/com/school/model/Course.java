@@ -14,7 +14,7 @@ public class Course {
     public Course(String courseCode, String courseName, int maxCapacity) {
         this.courseCode = courseCode;
         this.courseName = courseName;
-        this.enrolledStudents = enrolledStudents;
+        this.enrolledStudents = new ArrayList<>();
         this.maxCapacity = maxCapacity;
     }
     
