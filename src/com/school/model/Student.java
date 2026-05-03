@@ -2,7 +2,7 @@ package com.school.model;
 
 public class Student extends Person {
     private double feesPaid;
-    private double totalFees;
+    private double totalFees; // e.g. 5000 per year
     
     public Student(String id, String name, String email, double feesPaid, double totalFees) {
         super(id, name, email);
