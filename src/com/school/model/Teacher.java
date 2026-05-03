@@ -31,6 +31,11 @@ public class Teacher extends Person{
         return null;
     }
 
+    @Override
+    public String toString() {
+        return super.toString()+ String.format();
+    }
+
     
     
     
