@@ -10,4 +10,9 @@ public class Course {
     private Teacher teacher;  // Association  with Teacher
     private List<Student> enrolledStudents; // Composition (list of Student)
     private int maxCapacity;
+
+
+    
+
+
 }
