@@ -1,3 +1,11 @@
 package com.school.model;
 
 import java.util.ArrayList;
+import java.util.List;
+
+
+public class Course {
+    private String courseCode;
+    private String courseName;
+    private Teacher teacher;
+}
