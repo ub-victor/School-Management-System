@@ -71,5 +71,13 @@ public class Course {
     public void displayCourseInfo(){
         System.out.println("\n--- Course: " + courseName + " (" + courseCode + ") ---");
         System.out.println("Teacher: " + (teacher != null ? teacher.getName(): "Not assigned"));
+        System.out.println("Enrolled Student (" + enrolledStudents.size() + "/" + maxCapacity + "):");
+        if (enrolledStudents.isEmpty()){
+            System.out.println("   None");
+        } else {
+            for (Student s : enrolledStudents){
+                System.out.println("   -   "+ s.getName() + "(ID: " + s.getId() + ")");
+            }
+        }
     }
 }
