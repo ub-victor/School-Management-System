@@ -18,10 +18,6 @@ public class Teacher extends Person{
         this.subjectSpecialization = subjectSpecialization;
     }
 
-
-
-
-
     public double getSalary() {
         return salary;
     }
