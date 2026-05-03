@@ -67,4 +67,8 @@ public class Course {
             return false;
         }
     }
+
+    public void displayCourseInfo(){
+        
+    }
 }
