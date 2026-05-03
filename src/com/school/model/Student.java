@@ -39,7 +39,9 @@ public class Student extends Person {
             System.out.println("Invalid payment amount or exceeds remaining fees");
         }
     }
-
+    // @Override getRole() method to return "Student" as the role of this class.
+    // Override the toString() method to provide a string representation of the student, including their name, email, fees paid, total fees, and remaining fees.
+    // Override is used to provide a specific implementation of a method defined in the parent class (Person) for the Student class, allowing us to specify that the role of this class is "Student" and to customize the string representation of the student object when it is printed or converted to a string.
     @Override
     public String getRole() {
         return "Student";
