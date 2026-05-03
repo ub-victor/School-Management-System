@@ -11,7 +11,7 @@ public class Course {
     private List<Student> enrolledStudents; // Composition (list of Student)
     private int maxCapacity;
     
-    public Course(String courseCode, String courseName, List<Student> enrolledStudents, int maxCapacity) {
+    public Course(String courseCode, String courseName, int maxCapacity) {
         this.courseCode = courseCode;
         this.courseName = courseName;
         this.enrolledStudents = enrolledStudents;
