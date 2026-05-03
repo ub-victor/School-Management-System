@@ -17,6 +17,8 @@ public class Course {
         this.enrolledStudents = new ArrayList<>();
         this.maxCapacity = maxCapacity;
     }
+
+    
     
     
 
