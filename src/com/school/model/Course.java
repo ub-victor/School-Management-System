@@ -70,5 +70,6 @@ public class Course {
 
     public void displayCourseInfo(){
         System.out.println("\n--- Course: " + courseName + " (" + courseCode + ") ---");
+        System.out.println("Teacher: " + (teacher != null ? teacher.getName(): "Not assigned"));
     }
 }
