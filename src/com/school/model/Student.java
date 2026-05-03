@@ -27,7 +27,7 @@ public class Student extends Person {
     }
 
     public double getRemainingFees(){
-        return totalFees - feesPaid;
+        return totalFees - feesPaid; 
     }
     // Safely accept and record a partial or full payment toward an outstanding fee balance, while preventing invalid or oversize payments.
 
