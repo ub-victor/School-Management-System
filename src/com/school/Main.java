@@ -19,7 +19,7 @@ public class Main {
 
         boolean running = true;
         while (running) {
-            printMainMenu();
+            printMainMenu(); // Display the main menu options to the user
             int choice = getIntInput("Enter your choice: ");
 
             switch (choice) {
