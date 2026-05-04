@@ -27,7 +27,7 @@ public class Course {
 
     public Teacher getTeacher() { return teacher; }
     public void setTeacher(Teacher teacher) { this.teacher = teacher; }
-    // You can assign or change the teacher anytime later
+    // I can assign or change the teacher anytime later
     public List<Student> getEnrolledStudents() { return enrolledStudents; }
     public int getMaxCapacity() { return maxCapacity; }
 
