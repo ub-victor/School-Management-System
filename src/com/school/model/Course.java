@@ -18,6 +18,7 @@ public class Course {
         // it's initialized inside the constructor:
         // When a course is created → it starts empty
         // Students will be added later using:
+        
         this.enrolledStudents = new ArrayList<>();
     }
 
