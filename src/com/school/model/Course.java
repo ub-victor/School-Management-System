@@ -43,6 +43,7 @@ public class Course {
 
     public void displayCourseInfo() {
         System.out.println("\n--- Course: " + courseName + " (" + courseCode + ") ---");
+        // We use ternsry operator
         System.out.println("Teacher: " + (teacher != null ? teacher.getName() : "Not assigned"));
         System.out.println("Enrolled Students (" + enrolledStudents.size() + "/" + maxCapacity + "):");
         if (enrolledStudents.isEmpty()) {
