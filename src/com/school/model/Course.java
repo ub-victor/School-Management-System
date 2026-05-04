@@ -10,7 +10,7 @@ public class Course {
     private List<Student> enrolledStudents; // Composition (list of Student)
     private int maxCapacity;
 
-    // we did not add Teacher in the constructor because is not required
+    // we did not add Teacher in the constructor because is not required white creating a course
     public Course(String courseCode, String courseName, int maxCapacity) {
         this.courseCode = courseCode;
         this.courseName = courseName;
