@@ -10,12 +10,13 @@ import java.util.*;
  */
 public class School {
     private String schoolName;
-    private Map<String, Student> students; // ID -> Student
+    private Map<String, Student> students; // ID -> Student, String means that the key is a String (the student ID) and Student is the value (the student object itself) 
     private Map<String, Teacher> teachers; // ID -> Teacher
     private Map<String, Course> courses;   // courseCode -> Course
 
     public School(String schoolName) {
         this.schoolName = schoolName;
+        // A HashMap in Java is a data structure that stores items in key-value pairs. 
         this.students = new HashMap<>(); // Using HashMap for efficient lookups by ID, we can also use ArrayList but it will be less efficient when we want to find a student by ID in short HshMap is used to store students, teachers, and courses for quick access by their unique identifiers (ID for students and teachers, course code for courses).
         this.teachers = new HashMap<>();
         this.courses = new HashMap<>();
@@ -23,7 +24,7 @@ public class School {
 
     // ----- Student Management -----
     public void addStudent(Student student) {
-        if (students.containsKey(student.getId())) {
+        if (students.containsKey(student.getId())) { // Check if a student with the same ID already exists to prevent duplicates.
             System.out.println("Student with ID " + student.getId() + " already exists.");
         } else {
             students.put(student.getId(), student);
