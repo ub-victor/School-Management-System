@@ -30,7 +30,7 @@ public class Course {
     public List<Student> getEnrolledStudents() { return enrolledStudents; }
     public int getMaxCapacity() { return maxCapacity; }
 
-    // 
+    // This method is to enrolled a student, it will return a boolean
     public boolean enrollStudent(Student student) {
         if (enrolledStudents.size() < maxCapacity && !enrolledStudents.contains(student)) {
             enrolledStudents.add(student);
