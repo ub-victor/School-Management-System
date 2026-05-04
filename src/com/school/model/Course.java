@@ -16,7 +16,8 @@ public class Course {
         this.courseName = courseName;
         this.maxCapacity = maxCapacity;
         // it's initialized inside the constructor:
-        
+        // When a course is created → it starts empty
+        // 
         this.enrolledStudents = new ArrayList<>();
     }
 
