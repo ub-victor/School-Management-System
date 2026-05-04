@@ -27,7 +27,7 @@ public class School {
         if (students.containsKey(student.getId())) { // Check if a student with the same ID already exists to prevent duplicates.
             System.out.println("Student with ID " + student.getId() + " already exists.");
         } else {
-            students.put(student.getId(), student);
+            students.put(student.getId(), student); // Add the student to the students map, using their ID as the key and the student object as the value.
             System.out.println("Student added: " + student.getName());
         }
     }
