@@ -145,7 +145,7 @@ public class Main {
         System.out.print(prompt);
         while (!scanner.hasNextInt()) {
             System.out.print("Invalid input. Please enter a number: ");
-            scanner.next();
+            scanner.nextLine(); // discard invalid input line
         }
         int num = scanner.nextInt();
         scanner.nextLine(); // consume newline
@@ -156,7 +156,7 @@ public class Main {
         System.out.print(prompt);
         while (!scanner.hasNextDouble()) {
             System.out.print("Invalid input. Please enter a number: ");
-            scanner.next();
+            scanner.nextLine(); // discard invalid input line
         }
         double num = scanner.nextDouble();
         scanner.nextLine();
