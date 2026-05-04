@@ -16,7 +16,7 @@ public class School {
 
     public School(String schoolName) {
         this.schoolName = schoolName;
-        this.students = new HashMap<>();
+        this.students = new HashMap<>(); // Using HashMap for efficient lookups by ID, we can also use ArrayList but it will be less efficient when we want to find a student by ID in short HshMap is used to store students, teachers, and courses for quick access by their unique identifiers (ID for students and teachers, course code for courses).
         this.teachers = new HashMap<>();
         this.courses = new HashMap<>();
     }
