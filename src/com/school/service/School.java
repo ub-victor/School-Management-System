@@ -42,7 +42,7 @@ public class School {
             return;
         }
         System.out.println("\n===== ALL STUDENTS =====");
-        for (Student s : students.values()) {
+        for (Student s : students.values()) { // the values() is used to get all the student objects from the students map, and we iterate over them to print their details.
             System.out.println(s);
         }
     }
