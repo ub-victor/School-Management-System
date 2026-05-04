@@ -22,6 +22,11 @@ public class School {
         this.courses = new HashMap<>();
     }
 
+    // Added getter for schoolName to fix compilation error in Main.java
+    public String getSchoolName() {
+        return schoolName;
+    }
+
     // ----- Student Management -----
     public void addStudent(Student student) {
         if (students.containsKey(student.getId())) { // Check if a student with the same ID already exists to prevent duplicates.

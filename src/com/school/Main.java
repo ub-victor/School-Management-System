@@ -60,7 +60,8 @@ public class Main {
             String name = getStringInput("Name: ");
             String email = getStringInput("Email: ");
             double totalFees = getDoubleInput("Total Annual Fees: ");
-            school.addStudent(new Student(id, name, email, totalFees));
+            // Fixed: Added missing feesPaid parameter (0.0) to match Student constructor
+            school.addStudent(new Student(id, name, email, 0.0, totalFees));
         } else if (choice == 2) {
             school.displayAllStudents();
         } else {
@@ -165,8 +166,10 @@ public class Main {
 
     private static void initializeSampleData() {
         // Pre-populate to avoid empty system on first run
-        Student s1 = new Student("S001", "Alice Johnson", "alice@example.com", 5000);
-        Student s2 = new Student("S002", "Bob Smith", "bob@example.com", 5000);
+        // Fixed: Added missing feesPaid parameter (0.0) and changed 5000 to 5000.0 for double type
+        Student s1 = new Student("S001", "Alice Johnson", "alice@example.com", 0.0, 5000.0);
+        // Fixed: Added missing feesPaid parameter (0.0) and changed 5000 to 5000.0 for double type
+        Student s2 = new Student("S002", "Bob Smith", "bob@example.com", 0.0, 5000.0);
         Teacher t1 = new Teacher("T001", "Dr. Emily Brown", "emily@school.com", "Mathematics", 55000);
         Teacher t2 = new Teacher("T002", "Prof. John Doe", "john@school.com", "Physics", 60000);
         Course c1 = new Course("CS101", "Intro to Programming", 30);
