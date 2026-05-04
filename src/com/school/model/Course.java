@@ -47,6 +47,7 @@ public class Course {
         // We use ternsry operator
         System.out.println("Teacher: " + (teacher != null ? teacher.getName() : "Not assigned"));
         System.out.println("Enrolled Students (" + enrolledStudents.size() + "/" + maxCapacity + "):");
+        // print students one by one if not empty
         if (enrolledStudents.isEmpty()) {
             System.out.println("  None");
         } else {
